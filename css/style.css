@@ -3,3 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* DEBUG */
+
+div {
+    border: 1px dotted blue;
+}
+
+/* COMMON */
+
+a {
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+/* HEADER */
+
+header {
+    height: 350px;
+    font-size: 12px;
+}
+
+.header-top {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-left, .link-right {
+    display: flex;
+}
+
+.link-left {
+    align-items: center;
+}
+
+.header-top img {
+    height: 20px;
+    margin: 0 10px 0 10px;
+}
+
+.header-top ul {
+    display: flex;
+}
+
+.header-top li {
+    padding: 10px;
+}
+
+.link-right div {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.header-top .button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+
+
+
+.header-bottom {
+    height: 300px;
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
+footer {
+    height: 300px;
+}
