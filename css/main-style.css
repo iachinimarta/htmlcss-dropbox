@@ -1,0 +1,99 @@
+/* MAIN */
+
+.main-top {
+    width: 60%;
+    margin: auto;
+}
+
+.main-top h2 {
+    margin: 40px 0;
+}
+
+.fatturazione {
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.flex {
+    display: flex
+}
+
+.round {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.monthly {
+    border: 3px solid #0061ff;
+}
+
+.monthly-text {
+    margin-right: 30px;
+}
+
+.annual {
+    border: 1px solid grey;
+}
+
+.offerta {
+    width: calc(97% / 3);  
+    border: 1px solid lightgray;
+}
+
+.account {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.licenza {
+    padding: 20px;
+}
+
+.licenza h3 {
+    padding-bottom: 20px;
+}
+
+.licenza div, ul {
+    font-size: 12px;
+}
+
+.licenza li {
+    padding-bottom: 10px;
+}
+
+.prezzo-mese {
+    padding-bottom: 20px;
+
+}
+
+.caratteristiche {
+    margin-bottom: 30px;
+}
+.licenza .button {
+    text-align: center;
+}
+
+.acquista {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.acquista a {
+    color: #0061ff;
+    text-decoration: underline;
+}
+h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fa-check {
+    color: #0061ff;
+    margin-right: 5px;
+}

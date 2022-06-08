@@ -8,10 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* DEBUG */
-* {
-    border: 1px solid blue;
-}
+
 
 /* COMMON */
 a {
@@ -121,56 +118,4 @@ header {
 .testo .icona {
     position: absolute;
     bottom: 0;
-}
-
-
-/* MAIN */
-
-.main-top {
-    width: 60%;
-    margin: auto;
-}
-
-.round {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
-.monthly {
-    border: 3px solid #0061ff;
-}
-
-.annual {
-    border: 1px solid grey;
-}
-
-.offerta {
-    width: calc(100% / 3);
-    height: 300px;
-}
-
-.account {
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    vertical-align: middle;
-}
-
-.acquista a {
-    color: #0061ff;
-    text-decoration: underline;
-}
-
-.fa-check {
-    color: #0061ff;
-}
-
-
-/* FOOTER */
-
-footer {
-    height: 200px;
 }
