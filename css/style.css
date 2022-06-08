@@ -85,12 +85,14 @@ header {
 .header-bottom {
     width: 70%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .header-bottom h1 {
     font-size: 3rem;
-    width: 95%;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header-bottom .flex {
@@ -99,6 +101,13 @@ header {
 
 .header-bottom .testo{
     width: 35%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.trial {
+    margin: 30px 0 30px 0;
 }
 
 .header-bottom .jumbo {
@@ -107,6 +116,11 @@ header {
 
 .jumbo img {
    width: 100%;
+}
+
+.testo .icona {
+    position: absolute;
+    bottom: 0;
 }
 
 
