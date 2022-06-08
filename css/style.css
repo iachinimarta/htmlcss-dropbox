@@ -155,7 +155,19 @@ header {
 .account {
     height: 30px;
     text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
 }
+
+.acquista a {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
 
 /* FOOTER */
 
