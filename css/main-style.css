@@ -156,7 +156,22 @@ h4 {
     padding-top: 40px;
 }
 
+/* MAIN BOTTOM */
+
 .under-square {
     background-color: #b4d0e7;
     height: 300px;
+}
+
+.under-square .main-top {
+    height: 100%;
+    align-items: center;
+}
+
+.under-square .button-container {
+    text-align: center;
+}
+
+.faq {
+
 }
