@@ -1,16 +1,3 @@
-.main-top h2 {
-    margin: 40px 0;
-}
-
-.fatturazione {
-    font-size: 12px;
-    align-items: center;
-}
-
-.plans {
-    justify-content: space-between;  
-}
-
 .round {
     display: inline-block;
     height: 15px;
@@ -30,48 +17,21 @@
     border: 1px solid grey;
 }
 
+
+.plans {
+    justify-content: space-between;
+}
+
 .vertical {
     width: calc(97% / 3);
 }
 
 .account {
     height: 30px;
-    text-align: center;
     line-height: 30px;
     vertical-align: middle;
     font-size: 12px;
     border-bottom: 1px solid lightgray;
-}
-
-.licenza {
-    padding: 20px;
-}
-
-.licenza h3, .prezzo-mese {
-    padding-bottom: 20px;
-}
-
-.licenza div, ul {
-    font-size: 12px;
-}
-
-.licenza li {
-    padding-bottom: 10px;
-}
-
-.caratteristiche {
-    margin-bottom: 30px;
-}
-.licenza .button {
-    text-align: center;
-}
-
-.acquista {
-    margin: 30px 0 20px 0;
-}
-
-h4 {
-    margin: 30px 0 30px 0;
 }
 
 .fa-check {
@@ -79,20 +39,10 @@ h4 {
     color: #0061ff;
 }
 
-.horizontal {
-    margin-top: 30px;
-}
-
 .horizontal .button-container {
     position: absolute;
     top: 20%;
     right: 0;
-}
-
-.grey {
-    background-color: white;
-    color: black;
-    border: 0.5px solid black;
 }
 
 .cards-container {
@@ -112,12 +62,20 @@ h4 {
     flex-wrap: wrap;
 }
 
+.square-big-container {
+    width: 90%;
+    padding-top: 40px;
+}
+
+.square-big.center {
+    background-color: #f5f5f5;
+    overflow-y: auto;
+}
+
 .square-small {
     width: calc(100% / 2);
     height: calc(100% / 2);
     justify-content: center;
-    align-items: center;
-    
 }
 
 .square-small img {
@@ -141,15 +99,20 @@ h4 {
     background-color: #ff1b1b;
 }
 
-.square-big.center {
-    background-color: #f5f5f5;
-    overflow-y: scroll;
+.E {
+    background-color: #D5001F;
 }
 
-.square-big-container {
-    width: 90%;
-    margin: auto;
-    padding-top: 40px;
+.F {
+    background-color: #B4D0E7;
+}
+
+.G {
+    background-color: #0d2481;
+}
+
+.H {
+    background-color: #FFD72F;
 }
 
 /* MAIN BOTTOM */
@@ -157,15 +120,6 @@ h4 {
 .under-square {
     background-color: #b4d0e7;
     height: 300px;
-}
-
-.under-square .top {
-    height: 100%;
-    align-items: center;
-}
-
-.under-square .button-container {
-    text-align: center;
 }
 
 .faq {
@@ -178,16 +132,10 @@ h4 {
     height: 50px;
     line-height: 50px;
     vertical-align: middle;
-    align-items: center;
     justify-content: space-between;
     padding: 30px 0px;
 }
 
-.option i {
+.option .fa-angle-down {
     margin-right: 30px;
-}
-
-.border {
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
 }

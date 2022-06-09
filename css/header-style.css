@@ -1,23 +1,16 @@
 header {
-    font-size: 12px;
     background-color: #b4d0e7;
 }
-
 
 /* HEADER TOP */
 .header-top {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 999;  
+    z-index: 999;
     height: 50px;
     background-color: white;
     justify-content: space-between;
-    align-items: center;
-}
-
-.link-left {
-    align-items: center;
 }
 
 .header-top .logo {
@@ -30,21 +23,16 @@ header {
 }
 
 .link-right .button-container {
-    align-items: center;
     margin: 0 10px 0 10px;
 }
 
-
 /* HEADER BOTTOM */
 .header-bottom {
-    width: 70%;
-    margin: auto;
     margin-top: 50px;
 }
 
 .header-bottom h1 {
     font-size: 3rem;
-    width: 80%;
 }
 
 .header-bottom .testo {
@@ -55,9 +43,4 @@ header {
     margin: 30px 0 30px 0;
     text-align: left;
     padding-left: 0;
-}
-
-.testo .icona {
-    position: absolute;
-    bottom: 0;
 }

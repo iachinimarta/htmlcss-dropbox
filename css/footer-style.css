@@ -1,0 +1,19 @@
+footer {
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+
+footer .nav{
+    height: 90%;
+}
+
+footer nav {
+    width: calc(100% / 5);
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+}
+
