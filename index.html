@@ -9,6 +9,7 @@
      <link rel="stylesheet" href="css/header-style.css">
      <link rel="stylesheet" href="css/main-style.css">
      <link rel="stylesheet" href="css/footer-style.css">
+     <link rel="stylesheet" href="css/effetti-style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
@@ -31,7 +32,7 @@
                 <li><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
                 <li><a href="#">Accedi</a></li>
-                <li><a class="button-blue" href="#">Inizia</a></li>
+                <li><a class="button-blue shade" href="#">Inizia</a></li>
               </ul>
             </nav>
           </div>
@@ -43,9 +44,9 @@
               <div class="d-flex">
                 <div class="testo d-flex w-30">
                   <p class="mb-20">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                  <div><a class="btn button-blue mb-20" href="#">Inizia la tua prova gratuita</a></div>
+                  <div><a class="btn button-blue mb-20 shade" href="#">Inizia la tua prova gratuita</a></div>
                   <div class="mb-50">Annulla in qualsiasi momento</div>
-                  <i class="fa-solid fa-arrow-down fa-4x"></i>
+                  <a href="#vai-qui"><i class="fa-solid fa-arrow-down fa-4x"></i></a>
                 </div>
 
                 <div class="jumbo w-70">
@@ -68,7 +69,7 @@
               <span class="annual-text">Fatturazione annuale</span>
             </div>
 
-            <div class="plans d-flex mb-50">
+            <div id="vai-qui" class="plans d-flex mb-50">
               <div class="vertical section">
                 <div class="account t-center">
                   <i class="fa-solid fa-user"></i>Singolo
@@ -84,7 +85,7 @@
                     <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
                   </ul>
 
-                  <div class="t-center"> <a class="btn button-blue" href="#">Prova gratis per 30 giorni</a></div>
+                  <div class="t-center"> <a class="btn button-blue shade" href="#">Prova gratis per 30 giorni</a></div>
 
                   <div class="acquista">oppure <a class="a-blue" href="#">acquista ora</a></div>
 
@@ -113,7 +114,7 @@
                     <li><i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</li>
                   </ul>
 
-                  <div class="t-center"> <a class="btn button-blue" href="#">Prova gratis per 30 giorni</a></div>
+                  <div class="t-center"> <a class="btn button-blue shade" href="#">Prova gratis per 30 giorni</a></div>
 
                   <div class="acquista">oppure <a class="a-blue" href="#">acquista ora</a></div>
 
@@ -146,7 +147,7 @@
                     <li><i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
                   </ul>
 
-                  <div class="t-center"> <a class="btn button-blue" href="#">Prova gratis per 30 giorni</a></div>
+                  <div class="t-center"> <a class="btn button-blue shade" href="#">Prova gratis per 30 giorni</a></div>
 
                   <div class="acquista">oppure <a class="a-blue" href="#">acquista ora</a></div>
 
@@ -171,7 +172,7 @@
                 <h3 class="mb-20 w-60">Enterprise</h3>
                 <h4 class="w-60 mb-20">Contatta l'ufficio vendite per i prezzi </h4>
                 <p class="w-60">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
-                <div class="button-container"> <a class="btn button-blue" href="#">Contatta l'ufficio vendite</a></div>
+                <div class="button-container"> <a class="btn button-blue shade" href="#">Contatta l'ufficio vendite</a></div>
               </div>
             </div>
 
@@ -182,7 +183,7 @@
               <div class="partner w-40">
                 <h3 class="mb-20">Entra in contatto con un partner Dropbox</h3>
                 <p class="mb-20">Trova un partner DropBox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
-                <div> <a class="btn button-grey" href="#">Trova un partner</a></div>
+                <div> <a class="btn button-grey shade" href="#">Trova un partner</a></div>
               </div>
             </div>
 
@@ -228,47 +229,45 @@
           <!-- MAIN CENTER -->
           <div class="main-center d-flex mt-80">
             <div class="square-big d-flex">
-              <div class="square-small d-flex a-items A">
+              <div class="square-small d-flex a-items selector pointer A">
                 <img src="img/designit.svg" alt="img"/>
               </div>
-              <div class="square-small d-flex a-items B">
+              <div class="square-small d-flex a-items selector pointer B">
                 <img src="img/arizona_state_university.svg" alt="img"/>
               </div>
-              <div class="square-small d-flex a-items C">
+              <div class="square-small d-flex a-items selector pointer C">
                 <img src="img/university_of_florida.svg" alt="img"/>
               </div>
-              <div class="square-small d-flex a-items D">
+              <div class="square-small d-flex a-items selector pointer D">
                 <img src="img/topps.svg" alt="img"/>
               </div>
           </div>
 
-                <div class="square-big center">
-                    <div class="square-big-container margin-auto">
-                        <img class="w-50" src="img/designit.svg" alt="designit"/>
-                        <hr>
-                        <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
-                        <div>Morten Thomsen. Global IT Lead</div>
-                    </div>
-                </div>
-
-                <div class="square-big d-flex">
-                    <div class="square-small d-flex a-items E">
-                        <img src="img/world_bicycle_relief.svg" alt="img"/>
-                    </div>
-                    <div class="square-small d-flex a-items F">
-                        <img src="img/hearst_corp.svg" alt="img"/>
-                    </div>
-                    <div class="square-small d-flex a-items G">
-                        <img src="img/lonely_planet.svg" alt="img"/>
-                    </div>
-                    <div class="square-small d-flex a-items H">
-                        <img src="img/clear_channel.svg" alt="img"/>
-                    </div>
-                </div>
-
-
-
+          <div class="square-big center">
+            <div class="square-big-container margin-auto">
+              <img class="w-50" src="img/designit.svg" alt="designit"/>
+              <hr>
+              <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+              <div>Morten Thomsen. Global IT Lead</div>
+            </div>
           </div>
+
+          <div class="square-big d-flex">
+            <div class="square-small d-flex a-items selector pointer E">
+              <img src="img/world_bicycle_relief.svg" alt="img"/>
+            </div>
+            <div class="square-small d-flex a-items selector pointer F">
+              <img src="img/hearst_corp.svg" alt="img"/>
+            </div>
+            <div class="square-small d-flex a-items selector pointer G">
+              <img src="img/lonely_planet.svg" alt="img"/>
+            </div>
+            <div class="square-small d-flex a-items selector pointer H">
+              <img src="img/clear_channel.svg" alt="img"/>
+            </div>
+          </div>
+          </div>
+    
 
           <!-- MAIN BOTTOM -->
           <div class="main-bottom under-square">
@@ -277,7 +276,7 @@
                 <h2>Porta Dropbox Buisness nella tua azienda.</h2>
               </div>
               <div class="w-50">
-                <div class="t-center"> <a class="btn button-grey" href="#">Inizia la tua prova gratuita</a></div>
+                <div class="t-center"> <a class="btn button-grey shade" href="#">Inizia la tua prova gratuita</a></div>
               </div>
             </div>
           </div>
@@ -285,13 +284,13 @@
           <div class="faq margin-auto w-60 d-flex mb-50">
             <h2 class="mb-50">Domande frequenti</h2>
             <div class="option a-items border d-flex">Qual è la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced?
-              <i class="fa-solid fa-angle-down"></i>
+            <i class="pointer fa-solid fa-angle-down"></i>
             </div>
             <div class="option a-items d-flex">Qual è la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced?
-              <i class="fa-solid fa-angle-down"></i>
+              <i class="pointer fa-solid fa-angle-down"></i>
             </div>
             <div class="option a-items border bottom d-flex">Qual è la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced?
-              <i class="fa-solid fa-angle-down"></i>
+              <i class="pointer fa-solid fa-angle-down"></i>
             </div>
           </div>
         </main>
@@ -362,8 +361,5 @@
             <i class="fa-solid fa-angle-up"></i>
           </div>
         </footer>
-
-
-       
   </body>
 </html>
