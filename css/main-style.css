@@ -3,6 +3,7 @@
     height: 15px;
     width: 15px;
     border-radius: 50%;
+    margin: 5px;
 }
 
 .monthly {
@@ -17,13 +18,31 @@
     border: 1px solid grey;
 }
 
-
 .plans {
     justify-content: space-between;
 }
 
 .vertical {
     width: calc(97% / 3);
+}
+
+.vertical .fa-check {
+    color: #0061ff;
+}
+
+.vertical li {
+    margin-bottom: 10px;
+    text-indent: -11px;
+    padding-left: 12px;
+}
+
+.vertical .btn {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.vertical .acquista,hr {
+    margin: 20px 0;
 }
 
 .account {
@@ -34,15 +53,14 @@
     border-bottom: 1px solid lightgray;
 }
 
-.fa-check {
-    margin-right: 5px;
-    color: #0061ff;
+.licenza {
+    padding: 30px;
 }
 
 .horizontal .button-container {
     position: absolute;
-    top: 20%;
-    right: 0;
+    top: 30px;
+    right: 30px;
 }
 
 .cards-container {
@@ -52,6 +70,11 @@
 
 .cards {
     width: calc(80% / 3);
+    margin-bottom: 30px;
+}
+
+.partner {
+    padding: 30px;
 }
 
 /* MAIN CENTER */

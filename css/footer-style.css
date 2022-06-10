@@ -1,19 +1,23 @@
 footer {
     background-color: black;
-    height: 300px;
     color: white;
-}
-
-footer .nav{
-    height: 90%;
 }
 
 footer nav {
     width: calc(100% / 5);
     flex-direction: column;
+    margin: 50px 0;
 }
 
 footer a {
     color: white;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+.language {
+    padding-bottom: 20px;
 }
 

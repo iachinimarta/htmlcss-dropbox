@@ -10,20 +10,30 @@ header {
     z-index: 999;
     height: 50px;
     background-color: white;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.header-top nav {
     justify-content: space-between;
 }
 
-.header-top .logo {
-    height: 20px;
-    margin: 0 10px 0 10px;
+.header-top li:hover {
+    border-bottom: 2px solid black;
 }
 
-.header-top li {
+.header-top a {
+    margin: 0 20px;
+}
+
+.header-top img {
+    vertical-align: middle;
+}
+
+.link-right .button-blue {
     padding: 10px;
-}
-
-.link-right .button-container {
-    margin: 0 10px 0 10px;
+    display: inline;
+    text-align: center;
 }
 
 /* HEADER BOTTOM */
@@ -31,16 +41,14 @@ header {
     margin-top: 50px;
 }
 
+.header-bottom .container {
+    bottom: -80px;
+}
+
 .header-bottom h1 {
-    font-size: 3rem;
+    font-size: 70px;
 }
 
 .header-bottom .testo {
     flex-direction: column;
-}
-
-.trial {
-    margin: 30px 0 30px 0;
-    text-align: left;
-    padding-left: 0;
 }
