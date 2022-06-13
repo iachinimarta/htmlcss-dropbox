@@ -147,3 +147,26 @@ hr {
 .mt-80 {
     margin-top: 80px;
 }
+
+
+/* EFFETTI */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.shade {
+    transition: background-color 1s;
+}
+
+.shade:hover {
+    background-color: #5695fb;
+}
+
+.selector:hover {
+    box-shadow: inset 0px 0px 3px 3px rgba(255, 255, 255, 0.5);                 
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
