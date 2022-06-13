@@ -227,6 +227,37 @@ header {
 }
 
 
+/* FAQ */
+
+.faq-container {
+    position: relative;
+}
+
+.risposta {
+    display: none;
+    padding-top: 10px;
+}
+
+.domanda:active #ruota {
+    transform: rotate(180deg);
+}
+
+div.faq-container .domanda:active p {
+    display: block;
+    
+}
+
+.faq-arrow {
+    position: absolute;
+    right: 0;
+}
+
+.domanda {
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+
 /* FOOTER */
 
 footer {
